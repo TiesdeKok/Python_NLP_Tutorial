@@ -51,7 +51,7 @@ This repository is written to facilitate learning by doing.
 To facilitate this all the materials are written up in a Jupyter Notebook. See: `NLP_notebook.ipynb`.
 The topics are split up by task description.
 
-It is best to view the notebook locally or on nbviewer using this link: [click here](http://nbviewer.jupyter.org/github/TiesdeKok/Python_NLP_Tutorial/blob/d660d0ad5806978a390f890f26766f80909ab30a/NLP_Notebook.ipynb)
+It is best to view the notebook locally or on nbviewer using this link: [click here](https://nbviewer.jupyter.org/github/TiesdeKok/Python_NLP_Tutorial/blob/master/NLP_Notebook.ipynb)
 
 ### Not yet familiar with the basic Python syntax?
 
