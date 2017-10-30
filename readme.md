@@ -12,6 +12,8 @@
   This repository has everything that you need to get started! <br><br>
   <span style='font-size: 15pt'><strong>Author:</strong> Ties de Kok (<a href="http://www.TiesdeKok.com">Personal Page</a>)</span>
   <h4 align="center"> These materials accompany a PhD session on NLP for Accounting Research: <a href="http://www.tiesdekok.com/AccountingNLP_Slides/", target="_blank">slides</a>
+  <br>
+  <h4 align="center">Quick link to the notebook: <a href="https://nbviewer.jupyter.org/github/TiesdeKok/Python_NLP_Tutorial/blob/master/NLP_Notebook.ipynb", target="_blank">open notebook</a></h4>
  </p>
 
 
