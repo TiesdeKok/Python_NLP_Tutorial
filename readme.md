@@ -20,10 +20,10 @@
   * [Introduction](#introduction)
     * [Who is this repository for?](#audience)
     * [How to use this repository?](#howtouse)
-  * [Getting your Python setup ready](#setup)
-  * [Using Python](#usingpython)
+  * [Using Jupyter](#usingpython)
   * [Code along](#codealong)
      * [Clone repository](#clonerepo)
+  * [Packages](#packages)
   * [Questions?](#questions)
   * [License](#license)
   * [Special thanks](#specialthanks)
@@ -129,6 +129,21 @@ You can do this by clicking "Clone or download" button and then "Download ZIP":
 <img src="https://i.imgur.com/Ysak4s3.png" title="Jupyter Notebook" width = 300px/>
 
 If you extract the downloaded ZIP to a folder you can start the Jupyter Notebook in that folder and access the notebook.
+
+<h2 id="packages">Packages</h2>
+
+There are a couple of packages not included with the Anaconda distribution that are used in the notebook:
+
+1. [NLTK](http://www.nltk.org/) (make sure to install the language data)
+2. [TextBlob](https://textblob.readthedocs.io/en/dev/) (make sure to install the language data)
+3. [Spacy](https://spacy.io/) (make sure to install the model data)
+4. [Textacy](https://github.com/chartbeat-labs/textacy)
+5. [pyLDAvis](https://github.com/bmabey/pyLDAvis)
+6. [langdetect](https://github.com/Mimino666/langdetect)
+7. [fuzzywuzzy](https://github.com/seatgeek/fuzzywuzzy)
+8. [textstat](https://github.com/shivam5992/textstat)
+
+(for the word2vec example I use the [gensim](https://radimrehurek.com/gensim/) package)
 
 <h2 id="questions">Questions?</h2>
 
