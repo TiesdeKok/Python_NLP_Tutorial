@@ -18,8 +18,8 @@
 ## Table of contents
 
   * [Introduction](#introduction)
-  	* [Who is this repository for?](#audience)
-  	* [How to use this repository?](#howtouse)
+    * [Who is this repository for?](#audience)
+    * [How to use this repository?](#howtouse)
   * [Getting your Python setup ready](#setup)
   * [Using Python](#usingpython)
   * [Code along](#codealong)
@@ -49,8 +49,9 @@ However, many of the basics are also perfectly applicable if you are looking to 
 This repository is written to facilitate learning by doing. 
 
 To facilitate this all the materials are written up in a Jupyter Notebook. See: `NLP_notebook.ipynb`.
-
 The topics are split up by task description.
+
+It is best to view the notebook locally or on nbviewer using this link: [click here](http://nbviewer.jupyter.org/github/TiesdeKok/Python_NLP_Tutorial/blob/d660d0ad5806978a390f890f26766f80909ab30a/NLP_Notebook.ipynb)
 
 ### Not yet familiar with the basic Python syntax?
 
@@ -108,12 +109,12 @@ I recommend to watch this excellent YouTube video: [Awesome Data Science: 1.0 Ju
 `command mode` --> enable by pressing `esc`   
  `edit mode` --> enable by pressing `enter`   
 
-|  `command mode` |`edit mode` 	| `both modes`
-|---	|---	|---
-|  `Y` : cell to code	|  `Tab` : code completion or indent | `Shift-Enter` : run cell, select below
+|  `command mode` |`edit mode`  | `both modes`
+|---  |---  |---
+|  `Y` : cell to code |  `Tab` : code completion or indent | `Shift-Enter` : run cell, select below
 | `M` : cell to markdown  |   `Shift-Tab` : tooltip | `Ctrl-Enter` : run cell 
-| `A` : insert cell above  	|   	`Ctrl-A` : select all | 
-| `B` : insert cell below  	|   `Ctrl-Z` : undo | 
+| `A` : insert cell above   |     `Ctrl-A` : select all | 
+| `B` : insert cell below   |   `Ctrl-Z` : undo | 
 | `X`: cut selected cell |   
 
 <h2 id="codealong">Code along!</h2>
