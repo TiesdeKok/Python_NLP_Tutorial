@@ -153,7 +153,7 @@ If you have questions or experience problems please use the `issues` tab of this
 
 <h2 id="license">License</h2>
 
-[MIT](LICENSE) - Ties de Kok - 2017
+[MIT](LICENSE) - Ties de Kok - 2018
 
 <h2 id="specialthanks">Special Thanks</h2>
 
