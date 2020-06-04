@@ -1,3 +1,6 @@
 C50test
 assignment
 dontsync
+*.log
+*.psd
+*checkpoint.ipynb*
