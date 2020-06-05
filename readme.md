@@ -1,10 +1,11 @@
 <h1 align="center">
    <img src="https://i.imgur.com/IAj2Koq.png" alt="Get started with Python for Text Mining (NLP)" title="Get started with Python for Text Mining (NLP)" />
 </h1>
+ <p align="center"> <b>Last updated:</b> June 2020</p>
+
 <p align="center">  
  <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/license-MIT-blue.svg"></a>
  <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=2UKM4JREAPTBG"><img src="https://img.shields.io/badge/buy%20me%20a-coffee-yellow.svg"></a>
- 
 </p>
 
 <p align="center">
