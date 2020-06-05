@@ -6,8 +6,6 @@
  <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=2UKM4JREAPTBG"><img src="https://img.shields.io/badge/buy%20me%20a-coffee-yellow.svg"></a>
  <img src="https://img.shields.io/badge/last%20updated-June%202020-3d62d1">
 
-
- 
 </p>
 
 <p align="center">
@@ -142,7 +140,7 @@ If you extract the downloaded ZIP to a folder you can start the Jupyter Notebook
 
 You can install the environment by following these steps:
 
-1. Make sure you have Anaconda installed ([link]())
+1. Make sure you have Anaconda installed ([link](https://docs.anaconda.com/anaconda/install/))
 2. Open your command prompt / terminal (on Windows I recommend the Anaconda Prompt)   
 3. `cd` (i.e. Change) to the folder where you extracted the ZIP file   
    for example: `cd "C:\Files\Work\Project_1"`  
