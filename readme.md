@@ -152,6 +152,9 @@ A full list of all the packages used is provided in the `environment.yml` file.
 
 <h3 id="binder"><strong>Option 2:</strong> use Binder</h3>
 
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/TiesdeKok/Python_NLP_Tutorial/master?urlpath=lab)
+
+
 *Note:* some functionality might not work on Binder. 
 
 <h2 id="questions">Questions?</h2>
