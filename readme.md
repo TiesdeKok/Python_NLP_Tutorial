@@ -10,7 +10,7 @@
 <p align="center">
   Want to learn how to use <strong>Python for Text Mining / Natural Language Processing (NLP)</strong>? <br>
   This repository has everything that you need to get started! <br><br>
-  <span style='font-size: 15pt'><strong>Author:</strong> Ties de Kok (<a href="http://www.TiesdeKok.com">Personal Page</a>)</span>
+  <span style='font-size: 15pt'><strong>Author:</strong> Ties de Kok (<a href="https://www.TiesdeKok.com">Personal Page</a>)</span>
   <h4 align="center"> These materials accompany a PhD session on NLP for Accounting Research: <a href="http://www.tiesdekok.com/AccountingNLP_Slides/", target="_blank">slides</a>
   <br>
   <h4 align="center">Quick link to the notebook: <a href="https://nbviewer.jupyter.org/github/TiesdeKok/Python_NLP_Tutorial/blob/master/NLP_Notebook.ipynb", target="_blank">open notebook</a></h4>
@@ -25,6 +25,7 @@
   * [Using Jupyter](#usingpython)
   * [Code along](#codealong)
      * [Clone repository](#clonerepo)
+     * [Install environment](#installenv)
   * [Packages](#packages)
   * [Questions?](#questions)
   * [License](#license)
@@ -32,13 +33,13 @@
 
 <h2 id="introduction">Introduction</h2>
 
-The goal of this GitHub page is to provide you with everything you need to get started with Python and Text Mining.  
+The goal of this GitHub page is to provide you with everything you need to get started with Python and Natural Language Processing (NLP)  
 
 The following topics are discussed:  
 
 <img src="https://i.imgur.com/c3aCZLA.png" width="60%" /> 
 
-(*Note: the neural network part is only a reference to the Stanford course CS224n ([Syllabus](http://web.stanford.edu/class/cs224n/syllabus.html))*)
+(*Note: the neural network part is only a reference to the Stanford course CS224n*)
 
 <h3 id="audience">Who is this repository for?</h3>
 
@@ -50,21 +51,25 @@ However, many of the basics are also perfectly applicable if you are looking to 
 
 This repository is written to facilitate learning by doing. 
 
-To facilitate this all the materials are written up in a Jupyter Notebook. See: `NLP_notebook.ipynb`.
+All the material is written up in a Jupyter Notebook. See: `NLP_notebook.ipynb`.    
 The topics are split up by task description.
 
 It is best to view the notebook locally or on nbviewer using this link: [click here](https://nbviewer.jupyter.org/github/TiesdeKok/Python_NLP_Tutorial/blob/master/NLP_Notebook.ipynb)
+
+An `environment.yml` file is provided that you can install using `conda`, this will automatically install all the packages used in the notebook. 
+
+Instructions on how to install the environment are provided here: [Install environment](#installenv)
 
 ### Not yet familiar with the basic Python syntax?
 
 Please check out my "Getting started with Python for Research" repository: [click here](https://github.com/TiesdeKok/LearnPythonforResearch)
 
 
-<h2 id="usingpython">Using the Jupyter Notebook</h2>
+<h2 id="usingpython">Using Jupyter</h2>
 
-To run the provided notebook you need to use the Jupyter Notebook.
+To run the provided notebook file you need to use Jupyter Lab or Jupyter Notebook. 
 
-[Jupyter](http://jupyter.org/) comes pre-installed with the Anaconda distribution so you should have everything already installed and ready to go. 
+[Jupyter](http://jupyter.org/) comes pre-installed with the Anaconda distribution so you should have everything already installed and ready to go. The `environment.yml` will also install Jupyter Lab if you prefer to use that. 
 
 ***What is the Jupyter Notebook?***
 
@@ -88,23 +93,21 @@ It is worth noting that in most cases you will be running the `Jupyter Server` o
 The primary method that I would recommend to start a Jupyter Notebook is to use the command line (terminal) directly:
 
 1. Open your command prompt / terminal (on Windows I recommend the Anaconda Prompt)
-2. `cd` (i.e. Change) to the desired starting directory   
+2. Activate the environment `conda activate PythonNLPTutorial`  
+3. `cd` (i.e. Change) to the desired starting directory   
    for example: `cd "C:\Files\Work\Project_1"`  
    *Note:* if you are changing do folder on another drive you might have to also switch drives by typing, for example, `E:` 
-3. Start the Jupyter Notebook server by typing: `jupyter notebook` 
+4. Start the Jupyter Notebook server by typing: `jupyter notebook` or `jupyter lab`
 
-This should automatically open up the corresponding Jupyter Notebook in your default browser.
-You can also manually go to the Jupyter Notebook by going to `localhost:8888` with your browser.
+This should automatically open up the corresponding Jupyter Notebook/Lab in your default browser.
+You can also manually go to the Jupyter Notebook/Lab by going to `localhost:8888` with your browser.
 
-***How to close a Jupyter Notebook server?***
+***How to close a Jupyter Notebook/Lab server?***
 
 If you want to close down the Jupyter Server: open up the command prompt window that runs the server and press `CTRL + C` twice.   
 Make sure that you have saved any open Jupyter Notebooks!
 
 ***How to use the Jupyter Notebook?***
-
-I recommend to watch this excellent YouTube video: [Awesome Data Science: 1.0 Jupyter Notebook Tour
-](https://www.youtube.com/watch?v=e9cSF3eVQv0)
 
 *Some shortcuts are worth mentioning for reference purposes:*
 
@@ -130,22 +133,25 @@ You can do this by clicking "Clone or download" button and then "Download ZIP":
 
 <img src="https://i.imgur.com/Ysak4s3.png" title="Jupyter Notebook" width = 300px/>
 
-If you extract the downloaded ZIP to a folder you can start the Jupyter Notebook in that folder and access the notebook.
+If you extract the downloaded ZIP to a folder you can start the Jupyter Notebook/Lab in that folder and access the notebook.
 
-<h2 id="packages">Packages</h2>
+<h2 id="installenv">Environment</h2>
 
-There are a couple of packages not included with the Anaconda distribution that are used in the notebook:
+You can install the environment by following these steps:
 
-1. [NLTK](http://www.nltk.org/) (make sure to install the language data)
-2. [TextBlob](https://textblob.readthedocs.io/en/dev/) (make sure to install the language data)
-3. [Spacy](https://spacy.io/) (make sure to install the model data)
-4. [Textacy](https://github.com/chartbeat-labs/textacy)
-5. [pyLDAvis](https://github.com/bmabey/pyLDAvis)
-6. [langdetect](https://github.com/Mimino666/langdetect)
-7. [fuzzywuzzy](https://github.com/seatgeek/fuzzywuzzy)
-8. [textstat](https://github.com/shivam5992/textstat)
+1. Make sure you have Anaconda installed ([link]())
+2. Open your command prompt / terminal (on Windows I recommend the Anaconda Prompt)   
+3. `cd` (i.e. Change) to the folder where you extracted the ZIP file   
+   for example: `cd "C:\Files\Work\Project_1"`  
+   *Note:* if you are changing do folder on another drive you might have to also switch drives by typing, for example, `E:` 
+4. Run the following command `conda env create -f environment.yml`  
+5. Activate the environment with: `conda activate PythonNLPTutorial`
 
-(for the word2vec example I use the [gensim](https://radimrehurek.com/gensim/) package)
+A full list of all the packages used is provided in the `environment.yml` file. 
+
+<h3 id="binder"><strong>Option 2:</strong> use Binder</h3>
+
+*Note:* some functionality might not work on Binder. 
 
 <h2 id="questions">Questions?</h2>
 
@@ -153,7 +159,7 @@ If you have questions or experience problems please use the `issues` tab of this
 
 <h2 id="license">License</h2>
 
-[MIT](LICENSE) - Ties de Kok - 2018
+[MIT](LICENSE) - Ties de Kok - 2020
 
 <h2 id="specialthanks">Special Thanks</h2>
 

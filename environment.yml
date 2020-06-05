@@ -1,0 +1,32 @@
+name: PythonNLPTutorial
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.7
+  - pip
+  - matplotlib
+  - jupyterlab
+  - numpy
+  - pandas
+  - xlrd
+  - openpyxl
+  - hickle
+  - PyTables
+  - spacy
+  - textblob
+  - nltk
+  - ipywidgets
+  - gensim
+  - pip:
+    - joblib
+    - tqdm
+    - scikit-learn 
+    - spacy-langdetect
+    - spacy-readability
+    - python-Levenshtein
+    - pyldavis
+    - unidecode
+    - fuzzywuzzy
+    - https://github.com/explosion/spacy-models/releases/download/en_core_web_lg-2.2.5/en_core_web_lg-2.2.5.tar.gz
+

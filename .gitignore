@@ -3,4 +3,5 @@ assignment
 dontsync
 *.log
 *.psd
+*.pkl
 *checkpoint.ipynb*
